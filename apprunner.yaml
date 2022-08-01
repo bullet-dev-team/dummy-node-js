@@ -6,3 +6,6 @@ build:
       - npm install
 run: 
   command: npm start
+  network:
+    port: 1337
+    env: APP_PORT
