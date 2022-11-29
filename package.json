@@ -6,6 +6,10 @@
   "dependencies": {
     "express": "^4.17.1"
   },
+  "scripts": {
+    "build": "echo 'goes here'",
+    "preinstall": "./scripts/install.sh"
+  },
   "devDependencies": {},
   "author": "",
   "license": "ISC"
