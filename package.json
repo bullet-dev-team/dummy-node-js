@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "echo 'goes here'",
-    "preinstall": "./scripts/install.sh"
+    "install": "Not sure what is happening"
   },
   "devDependencies": {},
   "author": "",
