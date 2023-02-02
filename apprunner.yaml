@@ -2,8 +2,10 @@ version: 1.0
 runtime: nodejs14
 build:
   commands:
-    build:      
+    pre-build:
       - n 14.18.3
+    build:      
+      - npm install
   env:
     - name: DJANGO_SETTINGS_MODULE
       value: "django_apprunner.settings"
