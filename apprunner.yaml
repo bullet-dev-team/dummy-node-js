@@ -6,11 +6,6 @@ build:
       - n 14.18.3
     build:      
       - npm install
-  env:
-    - name: DJANGO_SETTINGS_MODULE
-      value: "django_apprunner.settings"
-    - name: MY_VAR_EXAMPLE
-      value: "example"
 run: 
   command: node index.js
   network:
