@@ -6,7 +6,7 @@ app.get('/env', (req, res) => {
   res.send(process.env);
 });
 
-app.get('/api', (req, res) => {
+app.get('/time', (req, res) => {
   res.send("Hello world");
 });
 
